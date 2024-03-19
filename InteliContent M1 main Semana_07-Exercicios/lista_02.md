@@ -329,7 +329,7 @@ if (tempo < tempoMaximo):
 else if (velocidade < velocidadeMaxima):
     imprima("O carro excedeu a velocidade máxima")
 else:
-    imprima (tempo/60)
+    imprima ("Tempo em minutos:" + tempo/60)
 ```
 
 ______
