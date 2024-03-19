@@ -246,6 +246,18 @@ ______
 **7)** Implemente o pseudocódigo para o algoritmo representado no fluxograma da imagem.
 ![Uma imagem](assets/image.png)
 ______
+```
+var idade;
+idade = prompt("Insira sua idade")
+
+se (idade < 16):
+    imprima("Não pode votar!")
+se não:
+    se (idade >= 16 e idade < 18):
+        imprima("Voto facultativo!)
+    se não:
+        imprima("Voto obrigatório!")
+```
 
 **8)** Considere a implementação da classe base FormaGeometrica em um sistema de modelagem de formas geométricas. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Retangulo e Circulo, que herdam da classe FormaGeometrica, adicionando atributos específicos e métodos para calcular a área de um retângulo e de um círculo, respectivamente.
 
