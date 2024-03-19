@@ -233,7 +233,7 @@ Escolha a opção que responde corretamente:
 
 A) Renderizar gráficos 3D para jogos em HTML5.
 
-B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
+~B)~ **Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.**
 
 C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
 
