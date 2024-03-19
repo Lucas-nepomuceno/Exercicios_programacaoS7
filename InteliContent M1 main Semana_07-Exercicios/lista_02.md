@@ -201,8 +201,7 @@ Compra 3 aprovada. Saldo restante: 400
 Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 
-~D)~
-
+~D)~ 
 **Compra 1 aprovada. Saldo restante: 800**
 
 **Compra 2 aprovada. Saldo restante: 0**
