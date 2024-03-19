@@ -220,7 +220,7 @@ Escolha a opção que responde corretamente:
 
 A) Setup -> Update -> Draw
 
-B) Preload -> Create -> Update
+~B)~ **Preload -> Create -> Update**
 
 C) Load -> Initialize -> Render
 
