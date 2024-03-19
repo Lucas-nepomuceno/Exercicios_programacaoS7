@@ -313,7 +313,24 @@ ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
 
+```
+var v0 = prompt("Insira a velocidade inicial")
+var aceleracao = prompt("Insira a taxa de aceleração constante")
+var distancia = prompt("Insira a distância que deseja calcular")
 
+var tempo = (-v0 + (v0^2 - 4*0.5*aceleracao)^(1/2))/2*0.5*aceleracao
+var tempoMaximo = 600
+var velocidade = v0 + aceleracao*tempo
+var velocidadeMaxima = 40
+
+
+if (tempo < tempoMaximo):
+    imprima("A corrida excedeu o tempo máximo")
+else if (velocidade < velocidadeMaxima):
+    imprima("O carro excedeu a velocidade máxima")
+else:
+    imprima (tempo/60)
+```
 
 ______
 
