@@ -274,6 +274,41 @@ Classe FormaGeometrica:
 
 ```
 
+```
+Classe FormaGeometrica:
+    Atributos:
+        - cor
+
+    Método Construtor(cor):
+        Define o valor do atributo cor com o valor passado como parâmetro.
+
+    Método CalcularArea():
+        # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
+
+Classe Retangulo herda FormaGeometrica:
+    Atributos:
+        - largura
+        - altura
+
+    Método Construtor(cor, largura, altura):
+        Herda cor de FormaGeometrica
+        Define o valor dos atributos largura e altura com o valores passados como parâmetros
+
+    Método CalcularArea():
+        return largura*altura
+
+Classe Circulo herda FormaGeometrica:
+    Atributos:
+        - raio
+
+    Método Construtor(cor, raio):
+        Herda cor de FormaGeometrica
+        Define o valor do atributo raio com o valor passado como parâmetro
+
+    Método CalcularArea():
+        return 3.14*raio^2
+```
+
 ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
