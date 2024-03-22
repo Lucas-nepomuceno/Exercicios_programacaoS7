@@ -361,3 +361,23 @@ matrizSoma <- SomaDeMatrizes(matrizA, matrizB)
 Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
 ```
+
+```
+Função MultiplicacaoDeMatrizes(matrizA, matrizB):
+    # Verifica se a matrizA tem o número de colunas igual ao número de linhas de B
+    Se tamanho(matrizA[0]) ≠ tamanho(matrizB) então:
+        Retornar "As matrizes não podem ser multiplicadas, pois o número de colunas de A é diferente do número de linhas de B."
+    Senão:
+        linhas = tamanho(matrizA) # a nova matriz tem o número de linhas de A
+        colunas = tamanho(matrizB[0]) # e o número de colunas de B
+        igualdade = tamanho(matrizA[0]) #sabemos que o número de colunas de A é igual o número de linhas de B
+        matrizResultado = novaMatriz(linhas, colunas)
+
+        # Loop para percorrer cada elemento das matrizes e calcular a soma
+        Para i de 0 até linhas-1 faça:
+            Para j de 0 até colunas-1 faça:
+                Para k de 0 até igualdade-1 faça:
+                    matrizResultado[i][j] += matrizA[i][k] * matrizB[k][j];
+
+        Retornar matrizResultado        
+```
